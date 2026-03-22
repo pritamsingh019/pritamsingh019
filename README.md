@@ -1,8 +1,4 @@
-# Pritam Singh
-
-**AI & Cybersecurity · IIT Patna · Builder · Deoria, Uttar Pradesh**
-
-> "I like to make powerful things small and complicated things obvious."
+<img src="https://raw.githubusercontent.com/pritamsingh019/pritamsingh019/main/header.svg" width="100%" />
 
 ---
 
@@ -22,14 +18,14 @@ Now learning **Rust** — because fast models need fast infrastructure, and LLMs
 
 | Repo | What it does | Stack |
 |------|-------------|-------|
-| [DataScout](https://github.com/pritamsingh019/Data_scout) | NL → sandboxed Python via LLM agent · AWS deployed | Python, Bedrock, Lambda, S3 |
-| nanoscout *(coming soon)* | DataScout in 200 lines · zero dependencies | Python |
-| scout-sandbox *(coming soon)* | Secure LLM code execution engine · standalone | Python |
+| [DataScout](https://github.com/pritamsingh019/Data_scout) | NL → sandboxed Python via LLM agent · AWS deployed · cuts analysis hours → seconds | Python, Bedrock, Lambda, S3 |
+| [Drip_sense](https://github.com/pritamsingh019/Drip_sense) | IV drip monitor — tracks flow rate in real-time, push notification to nurse's phone when flow stops | C++, Arduino, IoT |
+| nanoscout *(coming soon)* | DataScout in 200 lines · zero dependencies · every line explainable | Python |
 | nano-infer *(WIP)* | Minimal LLM inference runtime from scratch | Rust |
 
 ---
 
-## Stack
+## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3572A5?style=flat&logo=python&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-e8734a?style=flat&logo=rust&logoColor=white)
@@ -56,6 +52,7 @@ Now learning **Rust** — because fast models need fast infrastructure, and LLMs
 - **Secure Code Execution** — sandboxed AI runtimes at the intersection of my AI + Cybersecurity degree
 - **Retrieval-Augmented Generation (RAG)** — domain-specific reasoning at scale
 - **Distributed Inference** — low-latency, edge-ready AI — where Rust enters the picture
+- **Medical IoT** — real-time embedded systems that keep people safe
 
 ---
 
@@ -63,7 +60,7 @@ Now learning **Rust** — because fast models need fast infrastructure, and LLMs
 
 - **If it needs a framework, it's not understood yet** — build from scratch until every line is explainable
 - **Safety is not a feature** — a sandboxed agent and an unsandboxed one are not the same product
-- **Real deployment > perfect paper** — DataScout runs on AWS. That matters more than any benchmark
+- **Real deployment > perfect paper** — DataScout runs on AWS. Drip_sense notifies real nurses. Code that solves real problems.
 - **AI that gatekeeps intelligence has failed** — if a non-expert can't use it in 5 minutes, I'm not done building
 
 ---
@@ -85,6 +82,12 @@ Now learning **Rust** — because fast models need fast infrastructure, and LLMs
 
 ---
 
-**Open to research roles, internships & collaborations.**
+## GitHub Activity
 
-📧 pritamsingh.unstoppable@gmail.com · [LinkedIn](https://www.linkedin.com/in/pritam-singh-65069b3aa/) · [GitHub](https://github.com/pritamsingh019)
+<p align="center">
+  <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pritamsingh019&layout=compact&theme=github_dark&hide_border=true&langs_count=8&title_color=c4b5fd&text_color=c4b5fd&bg_color=0d1117&card_width=800" />
+</p>
+
+---
+
+<img src="https://raw.githubusercontent.com/pritamsingh019/pritamsingh019/main/footer.svg" width="100%" />
