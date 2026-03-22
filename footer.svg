@@ -1,0 +1,62 @@
+<svg width="100%" height="150" viewBox="0 0 900 150" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="bg2" cx="50%" cy="60%" r="70%">
+<stop offset="0%" stop-color="#110d2a"/>
+<stop offset="55%" stop-color="#0d0f1f"/>
+<stop offset="100%" stop-color="#0d1117"/>
+</radialGradient>
+<filter id="sg2"><feGaussianBlur stdDeviation="1.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="tg2"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="lg2"><feGaussianBlur stdDeviation="0.8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<rect width="900" height="150" fill="url(#bg2)"/>
+
+<!-- Soft bumps top — exact GitHub bg color #0d1117 -->
+<path fill="#0d1117">
+<animate attributeName="d" dur="5s" repeatCount="indefinite" calcMode="spline"
+keySplines="0.45 0 0.55 1;0.45 0 0.55 1"
+values="M0,0 L0,22 Q120,45 225,28 Q340,12 450,32 Q560,50 675,30 Q780,12 900,28 L900,0 Z;
+        M0,0 L0,28 Q120,12 225,32 Q340,50 450,28 Q560,10 675,32 Q780,50 900,22 L900,0 Z;
+        M0,0 L0,22 Q120,45 225,28 Q340,12 450,32 Q560,50 675,30 Q780,12 900,28 L900,0 Z"/>
+</path>
+
+<g filter="url(#lg2)">
+<line x1="0" y1="60" x2="80" y2="40" stroke="#4c2d8a" stroke-width="0.6" opacity="0.65"/>
+<line x1="80" y1="40" x2="160" y2="70" stroke="#4c2d8a" stroke-width="0.6" opacity="0.65"/>
+<line x1="160" y1="70" x2="120" y2="108" stroke="#4c2d8a" stroke-width="0.6" opacity="0.6"/>
+<line x1="120" y1="108" x2="200" y2="125" stroke="#4c2d8a" stroke-width="0.6" opacity="0.55"/>
+<line x1="80" y1="40" x2="140" y2="22" stroke="#4c2d8a" stroke-width="0.6" opacity="0.5"/>
+<line x1="140" y1="22" x2="210" y2="50" stroke="#4c2d8a" stroke-width="0.6" opacity="0.5"/>
+<line x1="210" y1="50" x2="200" y2="125" stroke="#4c2d8a" stroke-width="0.6" opacity="0.5"/>
+<line x1="900" y1="60" x2="820" y2="40" stroke="#4c2d8a" stroke-width="0.6" opacity="0.65"/>
+<line x1="820" y1="40" x2="740" y2="70" stroke="#4c2d8a" stroke-width="0.6" opacity="0.65"/>
+<line x1="740" y1="70" x2="780" y2="108" stroke="#4c2d8a" stroke-width="0.6" opacity="0.6"/>
+<line x1="780" y1="108" x2="700" y2="125" stroke="#4c2d8a" stroke-width="0.6" opacity="0.55"/>
+<line x1="820" y1="40" x2="760" y2="22" stroke="#4c2d8a" stroke-width="0.6" opacity="0.5"/>
+<line x1="760" y1="22" x2="690" y2="50" stroke="#4c2d8a" stroke-width="0.6" opacity="0.5"/>
+<line x1="690" y1="50" x2="700" y2="125" stroke="#4c2d8a" stroke-width="0.6" opacity="0.5"/>
+</g>
+
+<circle cx="80" cy="40" r="2.5" fill="#e9d5ff" opacity="0.9" filter="url(#sg2)"/>
+<circle cx="160" cy="70" r="2" fill="#ffffff" opacity="0.8"/>
+<circle cx="120" cy="108" r="2.5" fill="#c4b5fd" opacity="0.85" filter="url(#sg2)"/>
+<circle cx="140" cy="22" r="1.5" fill="#ffffff" opacity="0.65"/>
+<circle cx="210" cy="50" r="2" fill="#c4b5fd" opacity="0.7"/>
+<circle cx="820" cy="40" r="2.5" fill="#e9d5ff" opacity="0.9" filter="url(#sg2)"/>
+<circle cx="740" cy="70" r="2" fill="#ffffff" opacity="0.8"/>
+<circle cx="780" cy="108" r="2.5" fill="#c4b5fd" opacity="0.85" filter="url(#sg2)"/>
+<circle cx="760" cy="22" r="1.5" fill="#ffffff" opacity="0.65"/>
+<circle cx="690" cy="50" r="2" fill="#c4b5fd" opacity="0.7"/>
+
+<circle cx="35" cy="100" r="1" fill="#ffffff"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
+<circle cx="865" cy="100" r="1" fill="#ffffff"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="3s" repeatCount="indefinite" begin="1s"/></circle>
+
+<circle cx="120" cy="108" r="2.5" fill="none" stroke="#a78bfa" stroke-width="1"><animate attributeName="r" values="2.5;8;2.5" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="780" cy="108" r="2.5" fill="none" stroke="#a78bfa" stroke-width="1"><animate attributeName="r" values="2.5;8;2.5" dur="3s" repeatCount="indefinite" begin="1.5s"/><animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite" begin="1.5s"/></circle>
+
+<circle r="2.5" fill="#a78bfa" opacity="0.9" filter="url(#sg2)"><animateMotion dur="4s" repeatCount="indefinite" path="M0,15 L80,-5 L160,25 L120,63 L200,80"/></circle>
+<circle r="2.5" fill="#a78bfa" opacity="0.9" filter="url(#sg2)"><animateMotion dur="4s" repeatCount="indefinite" begin="2s" path="M900,15 L820,-5 L740,25 L780,63 L700,80"/></circle>
+
+<text x="450" y="100" text-anchor="middle" font-family="Georgia,'Times New Roman',serif" font-size="15" fill="#c4b5fd" font-style="italic" letter-spacing="2" filter="url(#tg2)">Open to Research · Internships · Collaborations</text>
+</svg>
