@@ -39,10 +39,15 @@ infrastructure, and LLMs at the edge need systems programmers.
 ## Stack
 
 **Core:** Python · Rust (learning) · C++
+
 **AI/ML:** PyTorch · Scikit-learn · NumPy · Pandas
+
 **Cloud:** AWS Lambda · S3 · DynamoDB · Bedrock
+
 **Infra:** Docker · REST API · SQL
+
 **Viz:** Streamlit · Plotly · Matplotlib
+
 
 ---
 
