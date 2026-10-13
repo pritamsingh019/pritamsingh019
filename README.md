@@ -26,22 +26,65 @@ Now learning **Rust** — because fast models need fast infrastructure, and LLMs
 ---
 
 
-### 🛠 Tech Stack
 
-<p align="center"><strong>Core & Development</strong></p>
+
+## 🛠️ Tech Stack
+
+### 💻 Core & Development
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,cpp,c,js,html,css,git,github,linux,vscode" alt="Core Technologies" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,cpp,c,js,html,css,ts,react,nodejs,git,github,linux,vscode,cmake,vite,tailwind,threejs&perline=9" alt="Core development technologies" />
+  </a>
 </p>
 
-<p align="center"><strong>Data & Machine Learning</strong></p>
+### 🔗 Backend & APIs
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,numpy,pandas,matplotlib" alt="Data & ML" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=fastapi,express,postman&perline=6" alt="Backend and API tools" />
+  </a>
 </p>
 
-<p align="center"><strong>Cloud, DevOps & Databases</strong></p>
+### 🧠 Data Science & Machine Learning
+
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,docker,mysql,dynamodb" alt="Cloud and Databases" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&perline=4" alt="Machine learning technologies" />
+  </a>
 </p>
+
+<p align="center">
+  <img src="https://cdn.simpleicons.org/jupyter/F37626" width="48" height="48" alt="Jupyter Notebook" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/numpy/013243" width="48" height="48" alt="NumPy" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/pandas/150458" width="48" height="48" alt="Pandas" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/onnx/005CED" width="48" height="48" alt="ONNX" />
+  &nbsp;&nbsp;
+  <img src="https://cdn.simpleicons.org/mlflow/0194E2" width="48" height="48" alt="MLflow" />
+</p>
+
+### ☁️ Cloud, DevOps & Databases
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=aws,docker,mysql,postgres,redis,nginx,prometheus,githubactions&perline=8" alt="Cloud and infrastructure technologies" />
+  </a>
+</p>
+
+### 🤖 Robotics & Embedded Systems
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ros,arduino,raspberrypi,platformio&perline=4" alt="Robotics and embedded systems" />
+  </a>
+</p>
+
+
+
+
 
 ## Research Interests
 
